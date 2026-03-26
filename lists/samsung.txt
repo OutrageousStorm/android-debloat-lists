@@ -1,0 +1,77 @@
+# Samsung debloat list — safe to remove via ADB
+# adb shell pm uninstall -k --user 0 <package>
+# Tested on One UI 5/6. Can be restored with: cmd package install-existing <package>
+
+# Bixby
+com.samsung.android.bixby.agent
+com.samsung.android.bixby.service
+com.samsung.android.visionintelligence
+com.samsung.android.bixby.wakeup
+
+# Samsung browser (if using Chrome/other)
+com.sec.android.app.sbrowser
+
+# Samsung Apps / Store bloat
+com.samsung.android.themestore
+com.sec.android.app.samsungapps
+com.samsung.android.app.spage
+
+# Samsung Pay (if not using)
+com.samsung.android.spay
+com.samsung.android.spayfw
+
+# Samsung Cloud
+com.samsung.android.scloud
+
+# Samsung social / sharing
+com.samsung.android.mobileservice
+com.samsung.android.app.sharelive
+
+# Samsung AR features
+com.samsung.android.aremoji
+com.samsung.android.ardrawing
+com.samsung.android.arzone
+
+# Samsung Game tools
+com.samsung.android.game.gamehome
+com.samsung.android.game.gametools
+
+# Samsung Health (if not using)
+com.samsung.android.forest
+
+# Samsung Kids
+com.samsung.android.kidsinstaller
+com.samsung.android.app.camera.sticker.facearavatar.preload
+
+# Facebook (preinstalled)
+com.facebook.katana
+com.facebook.appmanager
+com.facebook.services
+com.facebook.system
+
+# Microsoft (preinstalled)
+com.microsoft.skydrive
+com.microsoft.office.officehubrow
+com.microsoft.office.outlook
+
+# Netflix (preinstalled)
+com.netflix.partner.activation
+com.netflix.mediaclient
+
+# Samsung tips / promotions
+com.samsung.android.app.tips
+com.samsung.android.mapsagent
+
+# Weather (if using third-party)
+com.sec.android.daemonapp
+
+# Samsung keyboard (if using Gboard)
+com.samsung.android.honeyboard
+
+# Smart suggestions
+com.samsung.android.app.routines
+com.samsung.android.app.reminder
+
+# Samsung email (if using Gmail)
+com.samsung.android.email.provider
+com.samsung.android.app.spage
