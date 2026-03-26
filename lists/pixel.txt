@@ -1,0 +1,48 @@
+# Google Pixel debloat list — safe to remove via ADB
+# adb shell pm uninstall -k --user 0 <package>
+# Pixel is already clean; these are optional removals
+
+# Google TV / YouTube TV
+com.google.android.videos
+
+# Google Play Movies
+com.google.android.apps.youtube.music
+
+# Google News
+com.google.android.apps.magazines
+
+# Google One
+com.google.android.apps.subscriptions.red
+
+# Google Fi (if not on Fi)
+com.google.android.apps.tycho
+
+# Google Home (if not using smart home)
+com.google.android.apps.chromecast.app
+
+# Google Podcasts (discontinued, may still be installed)
+com.google.android.apps.podcasts
+
+# Pixel Tips
+com.google.android.apps.tips
+
+# Pixel Wallpapers
+com.google.android.apps.wallpaper.pixel
+
+# Safety hub / emergency info (optional)
+com.google.android.apps.safetyhub
+
+# Google Recorder (if not using)
+com.google.android.apps.recorder
+
+# Pixel Buds companion (if not using Pixel Buds)
+com.google.android.apps.wearables.maestro.companion
+
+# Google Drive (if using alternative)
+com.google.android.apps.docs
+
+# Keep Notes (if using alternative)
+com.google.android.keep
+
+# Google Translate (if not needed)
+com.google.android.apps.translate
