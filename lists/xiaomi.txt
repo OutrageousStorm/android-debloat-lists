@@ -1,0 +1,75 @@
+# Xiaomi / MIUI / HyperOS debloat list — safe to remove via ADB
+# adb shell pm uninstall -k --user 0 <package>
+
+# Mi Browser
+com.mi.globalbrowser
+
+# Mi Video
+com.miui.videoplayer
+
+# Mi Music
+com.miui.player
+
+# MIUI Analytics / Telemetry
+com.miui.analytics
+com.miui.msa.global
+com.miui.daemon
+
+# Mi Share
+com.miui.mishare.connectivity
+
+# Mi Cloud
+com.miui.cloudservice
+com.miui.cloudbackup
+
+# GetApps (Xiaomi app store)
+com.xiaomi.mipicks
+
+# MIUI Security scan
+com.miui.guardprovider
+
+# Themes
+com.android.thememanager
+
+# Cleaner (bundled junk)
+com.miui.cleanmaster
+
+# Game Turbo
+com.xiaomi.gamecenter.sdk.service
+
+# Mi Wallpaper carousel
+com.miui.android.fashiongallery
+
+# Mi AI
+com.miui.voiceassist
+
+# Joyose (ad/analytics framework)
+com.xiaomi.joyose
+
+# Mi Pay
+com.mipay.wallet.in
+com.mipay.wallet
+
+# Xiaomi SIM activation
+com.xiaomi.simactivate.service
+
+# Mi Calendar (if using Google Calendar)
+com.xiaomi.calendar
+
+# Mi Gallery (if using Google Photos)
+com.miui.gallery
+
+# Mi Weather (if using third-party)
+com.miui.weather2
+
+# Mi Compass
+com.miui.compass
+
+# Mi Scanner
+com.xiaomi.scanner
+
+# Yellow Pages
+com.miui.yellowpage
+
+# Feedback
+com.miui.bugreport
