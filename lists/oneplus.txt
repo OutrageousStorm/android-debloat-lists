@@ -1,0 +1,55 @@
+# OnePlus debloat list — safe to remove via ADB
+# adb shell pm uninstall -k --user 0 <package>
+
+# OnePlus Store
+com.oneplus.store
+
+# OnePlus Community
+com.oneplus.card
+
+# Red Cable Club
+com.oneplus.membership
+
+# OnePlus Weather (if using other)
+net.oneplus.weather
+com.oneplus.weather
+
+# OnePlus Game Space
+com.oneplus.gamespace
+
+# OnePlus Notes (if using other)
+com.oneplus.note
+
+# OnePlus Calculator (if using Google)
+com.oneplus.calculator
+
+# OnePlus Gallery (if using Google Photos)
+com.oneplus.gallery
+
+# OnePlus File Manager (if using other)
+com.android.fileexplorer
+
+# OnePlus Browser
+com.heytap.browser
+
+# OPPO/ColorOS bloat (OnePlus 10+)
+com.coloros.weather2
+com.coloros.gamespace
+com.coloros.phonemanager
+com.coloros.compass2
+com.coloros.oshare
+com.heytap.market
+com.heytap.cloud
+
+# Facebook (preinstalled)
+com.facebook.katana
+com.facebook.appmanager
+com.facebook.services
+com.facebook.system
+
+# Netflix (preinstalled)
+com.netflix.partner.activation
+com.netflix.mediaclient
+
+# Spotify (preinstalled)
+com.spotify.music
