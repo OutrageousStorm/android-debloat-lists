@@ -1,0 +1,52 @@
+# Universal Android debloat list — safe on all devices
+# adb shell pm uninstall -k --user 0 <package>
+
+# Facebook suite (commonly preinstalled by all OEMs)
+com.facebook.katana
+com.facebook.orca
+com.facebook.appmanager
+com.facebook.services
+com.facebook.system
+
+# Netflix (preinstalled)
+com.netflix.partner.activation
+com.netflix.mediaclient
+
+# Spotify (preinstalled)
+com.spotify.music
+
+# LinkedIn (preinstalled on some)
+com.linkedin.android
+
+# TikTok (preinstalled on some budget phones)
+com.zhiliaoapp.musically
+
+# Digital Wellbeing (if you find it annoying)
+com.google.android.apps.wellbeing
+
+# Google Assistant (if using alternative)
+com.google.android.apps.googleassistant
+
+# Chrome (if using Firefox/Brave)
+com.android.chrome
+
+# Gmail (if using K-9/FairEmail)
+com.google.android.gm
+
+# YouTube (if using NewPipe/ReVanced)
+com.google.android.youtube
+
+# Google Maps (if using OsmAnd/Magic Earth)
+com.google.android.apps.maps
+
+# Gboard (if using another keyboard)
+com.google.android.inputmethod.latin
+
+# Google Duo/Meet
+com.google.android.apps.tachyon
+
+# Google Drive
+com.google.android.apps.docs
+
+# Google Lens
+com.google.ar.lens
