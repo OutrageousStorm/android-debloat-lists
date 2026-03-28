@@ -1,0 +1,43 @@
+# Android TV / Google TV debloat list
+# adb shell pm uninstall -k --user 0 <package>
+# Works on: Shield TV, Chromecast with Google TV, Sony/TCL/Hisense Android TV
+
+# Google TV / Android TV bloat
+com.google.android.videos
+com.google.android.youtube.tv
+com.google.android.tv.remote.service
+com.google.android.gm
+com.google.android.apps.magazines
+com.google.android.music
+
+# Amazon (preinstalled on some TVs)
+com.amazon.avod.thirdpartyclient
+com.amazon.venezia
+
+# Netflix (if not using)
+com.netflix.ninja
+com.netflix.mediaclient
+
+# Plex (if not using)
+com.plexapp.android
+
+# Spotify (if not using)
+com.spotify.tv.android
+
+# Facebook (preinstalled some vendors)
+com.facebook.katana
+com.facebook.appmanager
+
+# Sony TV specific
+com.sony.dtv.osdplugin
+com.sony.dtv.tvx
+com.sony.dtv.socialfeed
+com.sony.dtv.purchasedcontent
+
+# Samsung Tizen (use adb differently on Tizen)
+# com.samsung.android.tv.retail
+# com.samsung.android.smartviewlegacy
+
+# Hisense TV
+com.hisense.remoteservice
+com.hisense.miracast
