@@ -1,0 +1,25 @@
+# Samsung One UI aggressive debloat
+# Remove even more bloat — be careful, some may affect features
+com.samsung.android.bixby.agent
+com.samsung.android.bixby.service
+com.samsung.android.visionintelligence
+com.samsung.android.bixby.wakeup
+com.samsung.android.themestore
+com.sec.android.app.samsungapps
+com.samsung.android.spay
+com.samsung.android.spayfw
+com.samsung.android.scloud
+com.samsung.android.aremoji
+com.samsung.android.ardrawing
+com.samsung.android.game.gamehome
+com.samsung.android.game.gametools
+com.samsung.android.app.tips
+com.samsung.android.mapsagent
+com.samsung.android.app.routines
+com.sec.android.daemonapp
+com.samsung.android.smartcallscreen
+com.samsung.android.smartcallrating
+com.samsung.android.sprintdm
+com.sec.ims.rcssettings
+com.samsung.location.sdpsetting
+com.samsung.groupcast
